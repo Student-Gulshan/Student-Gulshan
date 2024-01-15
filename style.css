@@ -47,6 +47,10 @@
     margin-right: 40px;
     list-style-type: none;
 }
+.main-header .navbar li a:hover{
+    color: #023677;
+    font-weight: 600;
+}
 
 .main-header .navbar ul a {
     text-decoration: none;
@@ -157,7 +161,6 @@
 
     padding: 25px 0 18px 0;
     font-size: x-large;
-    font-weight: lighter;
     color: black;
 }
 
@@ -364,12 +367,15 @@ justify-content: center;
     background-color: #F2F2F2;
     width: 100%;
 }
-.first-form button {
+.send-btn{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.send-btn button {
     padding: 6px 30px;
     color: white;
     background-color: #023677;
     border-radius: 5px;
-
 } 
 
 
